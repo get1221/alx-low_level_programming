@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point 
  *
- *  * main - Entry point  *
- *
- *    * Return: Always 0 (Success)
+ *    i Return: Always 0 (Success)
  *
  */
 
 int main(void)
 
 {
-
-	<<<<<<< HEAD
 
 		int num;
 
@@ -23,8 +20,6 @@ int main(void)
 		putchar(num);
 
 	num++;
-
-	=======
 
 		int p;
 
@@ -39,8 +34,6 @@ int main(void)
 		p++;
 
 	}
-
-	>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 
 		putchar('\n');
 
