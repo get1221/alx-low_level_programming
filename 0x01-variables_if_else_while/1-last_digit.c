@@ -1,15 +1,7 @@
-#include <stdio.h>
-
-#include <stdlib.h>
-
 #include <time.h>
 
 /**
- *
  *  * main - Entry point
- *
- *   *
- *
  *    * Return: Always 0 (Success)
  *
  */
@@ -45,8 +37,8 @@ int main(void)
 									=======
 
 											else if (s == 0)
-                                                                                                    
-											
+
+												>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 
 														{
 
@@ -58,10 +50,11 @@ int main(void)
 
 								if (num < 6)
 
-									=======                         
-                                                                                                                     
+									=======
+
 											else if (s < 6)
-                                                                                                                          
+
+												>>>>>>> c38d008b18676f16774155151031a0fcc1c46752
 
 														{
 
