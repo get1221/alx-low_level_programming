@@ -1,10 +1,10 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<time.h>
-/*
+/**
  * main Entry point
  *
- * last digit
+ * Return:Always 0 (success)
  */
 int main(void)
 {
