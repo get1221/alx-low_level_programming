@@ -5,7 +5,7 @@
  * main Entry point
  *
  */
-int main (void)
+int main(void)
 {
 
 int n;
@@ -13,7 +13,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if ((n % 10) == 0)	
-printf("last digit of %d \n", n, n % 10);
+printf("last digit of %d 0\n", n, n % 10);
 else if ((n % 10) > 5)
 printf("last digi of %d greaterthan 5\n", n, n % 10);
 else	
