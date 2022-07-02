@@ -1,42 +1,19 @@
 #include <stdio.h>
-
 /**
  * main - Entry point 
  *
  *    i Return: Always 0 (Success)
  *
  */
-
 int main(void)
-
 {
+char c ='a';
 
-		int num;
-
-	num = 97;
-
-	while (num <= 122)
-
-		putchar(num);
-
-	num++;
-
-		int p;
-
-	p = 97;
-
-	while (p <= 122)
-
-	{
-
-		putchar(p);
-
-		p++;
-
-	}
-
-		putchar('\n');
-
-	return (0);
-
+while(c <= 'z')
+{
+putchar(c);
+c++;
+}
+putchar('\n');
+return (0);
 }
