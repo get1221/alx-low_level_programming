@@ -2,7 +2,7 @@
 /**
  * main - main code
  * Description: print alphabet
- * return: 0 (sucess)
+ * return: 0
  */
 int main(void)
 {
