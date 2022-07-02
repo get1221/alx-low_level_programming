@@ -1,19 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Entry point 
+ * main -main Entery
+ *
  * Description: print alphabet
- *  Return: Always 0 (Success)
+ * return: 0 (sucess)
  *
  */
 int main(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
+char c ='a';
+while (c <= 'z')
 {
-	putchar(c);
-	c++;
+putchar(c);
+c++;
 }
 putchar('\n');
-return (0);
+return (0)
 }
