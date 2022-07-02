@@ -2,14 +2,13 @@
 /**
  * main - Entry point 
  *
- *    i Return: Always 0 (Success)
+ *  Return: Always 0 (Success)
  *
  */
 int main(void)
 {
-char c ='a';
-
-while(c <= 'z')
+char c = 'a';
+while (c <= 'z')
 {
 putchar(c);
 c++;
