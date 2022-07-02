@@ -1,10 +1,9 @@
 #include<stdio.h>
 /**
  * main - main code
- * Descrption :printout small letters and capital letters
+ * Descrption : printout small letters and capital letters
  * Return : 0
  */
-
 int main(void)
 {	
 char c = 'a';
