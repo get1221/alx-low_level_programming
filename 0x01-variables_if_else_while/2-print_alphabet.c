@@ -1,14 +1,12 @@
 #include<stdio.h>
 /**
- * main -main Entery
- *
+ * main - main code
  * Description: print alphabet
  * return: 0 (sucess)
- *
  */
 int main(void)
 {
-char c ='a';
+char c = 'a';
 while (c <= 'z')
 {
 putchar(c);
