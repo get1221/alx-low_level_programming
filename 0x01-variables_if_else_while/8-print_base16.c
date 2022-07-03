@@ -10,7 +10,7 @@ int main(void)
 	char get;
 
 	for (num =0; num < 10; num++)
-	for (get ='a'; get < g; get++)
+	for (get ='a'; get < 'g'; get++)
 		putchar(num,get);
 	       putchar('\n')
 	       return (0);
