@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- *  main - main block 
- *  Descriptions: print base10 numbers
- *  Return: 0
+ * main - main block 
+ * Descriptions: Print numbers from zero to nine
+ * Return: 0
  */
 int main(void)
 {
