@@ -1,6 +1,7 @@
 #include<stdio.h>
-/**i
- * main - print numbers
+/**
+ * main - print numbers by comma and space
+ * Description: Print Numbers separated by ,, followed by a space in  ascending order
  * Return: 0
  */
 int main(void)
