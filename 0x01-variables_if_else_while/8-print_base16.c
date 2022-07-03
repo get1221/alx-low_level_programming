@@ -13,6 +13,6 @@ int main(void)
 	for (get ='a'; get < 'g'; get++)
 		putchar(num);
 	putchar(get);
-	       putchar('\n')
+	       putchar('\n');
 	       return (0);
 }	
