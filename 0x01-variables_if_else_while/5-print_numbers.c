@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
  *  main - main block 
- *
  *  Descriptions: print base10 numbers
  *  Return: 0
  */
