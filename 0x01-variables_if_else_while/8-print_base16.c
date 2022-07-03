@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int num;
+	int num = 0;
 	char get;
 
 	for (num = 0; num < 10; num++)
 		for (get = 'a'; get <= 'f'; get++)
-			putchar(get);
-	putchar(num);
+			putchar(num);
+	putchar(get);
 	putchar('\n');
 	return (0);
 }
