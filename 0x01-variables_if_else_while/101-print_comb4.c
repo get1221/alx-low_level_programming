@@ -11,9 +11,9 @@ int main(void)
 	int h;
 	int b = 0;
 
-	while(b < 10)
+	while (b < 10)
 	{
-		h= 0;
+		h = 0;
 		while (h < 10)
 		{
 			g = 0;
