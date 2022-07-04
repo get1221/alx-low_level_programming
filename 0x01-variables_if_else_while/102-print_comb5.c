@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
  * main - combination of two two-digit numbers
+ *
  * Return 0
  */
 int main(void)
@@ -17,8 +18,8 @@ int main(void)
 				putchar(g % 10 + 48);
 				putchar(' ');
 				putchar(h / 10 + 48);
-				putchar(h % 10 +48);
-				if (g * 100 +h !=9899)
+				putchar(h % 10 + 48);
+				if (g * 100 +h != 9899)
 				{
 					putchar(',');
 					putchar(' ');
