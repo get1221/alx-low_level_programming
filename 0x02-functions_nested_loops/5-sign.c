@@ -2,8 +2,9 @@
 /**
  * print_sign - print sign
  * @n: number
- * Return: 0
+ * Return: Always 0.
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
