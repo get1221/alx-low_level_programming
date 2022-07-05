@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * print_last_digit - print the last digit
- * @n: integer
+ * @h: integer
  * Return: int 
  */
-int print_last_digit(int)
+int print_last_digit(int h)
 {
 	int g;
 	if (h < 0)
