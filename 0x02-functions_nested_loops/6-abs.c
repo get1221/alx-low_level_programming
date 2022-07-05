@@ -2,7 +2,7 @@
 /**
  * _abs - absolute value of a number
  * @n: integer number solve absolute value 
- * Return: sucess 
+ * Return: n
  */
 int _abs(int n)
 {
