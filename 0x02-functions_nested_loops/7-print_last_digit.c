@@ -4,7 +4,7 @@
  * @h: integer
  * Return: integer h
  */
-int print_last_digit(int h)
+int print_last_digit(void)
 {
 	int g;
 
