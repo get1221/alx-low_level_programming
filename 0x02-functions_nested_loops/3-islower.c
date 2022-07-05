@@ -11,5 +11,3 @@ int is_lower(int c)
 	else
 		return (0);
 	}
-}
-
