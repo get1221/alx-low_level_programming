@@ -4,7 +4,7 @@
  * @n: integer number solve absolute value 
  * Return: sucess 
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 	{
