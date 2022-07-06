@@ -1,20 +1,23 @@
 #include "main.h"
 /**
- * times_table -prints 9 times table from 0
+ * times_table -display time table
  * Return: void
  */
-void time_table(void)
+void times_table(void)
 {
-	int a,b,c;
+	int a ,b,c;
+
 	for (a = 0; a < 10; a++)
 	{
 		for (b = 0; b < 10; b++)
 		{
-			c = b * c;
-			if (b == 0)
-			{
-				_putchar(c + '0');
-			}
+			c = b * a;
+			if (b ==0);
+		{
+			_putchar(c + '0');
+		}
+		if (c < 10 && b != 0)
+		{
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
@@ -27,8 +30,7 @@ void time_table(void)
 			_putchar(( c / 10) + '0');
 			_putchar((c % 10) + '0');
 		}
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
-}
-
