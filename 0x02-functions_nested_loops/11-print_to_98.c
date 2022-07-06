@@ -7,14 +7,15 @@
 void print_to_98(int b)
 {
 	int g, h;
+
 	if (b <= 98)
 	{
 		for (g = b; g <= 98; g++)
 		{
 			if (g != 98)
-				printf("%d, ",g);
+				printf("%d, ", g);
 			else if (g == 98)
-				printf("%d\n",g);
+				printf("%d\n", g);
 		}
 	}
 	else if (b >= 98)
