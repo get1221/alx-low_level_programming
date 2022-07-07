@@ -2,8 +2,7 @@
 #define MAIN_H
 /*
  * File: main.h
- *
- * Description: Header declare all functions here
+ * Desc: Header declare all functions here
  */
 extern int _isupper(int c);
 extern int _isdigit(int c);
