@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * print_numbers - print numbers
+ * @a: numbers
  * Return: numbers
  */
 void print_numbers(void)
