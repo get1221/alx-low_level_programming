@@ -1,20 +1,37 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_most_numbers - print num from 0 to 9
  *
- * Return: void
- */
-void print_most_numbers(void)
-{
-	int a;
+ *  * print_most_numbers - Print numbers between 0 to 9 incl.
+ *
+ *   *
+ *
+ *    * Return: Void.
+ *
+ *     */
 
-	for (a = 0; a < 10; a++)
-	{
-		if (a != 2 && a != 4)
-		{
-			_putchar(a + '0');
-		}
-	}
-	_putchar('\n');
-}
+void print_most_numbers(void)
+
+{
+
+		int i;
+
+
+
+			for (i = 0; i < 10; i++)
+
+					{
+
+								if (i != 2 && i != 4)
+
+											{
+
+															_putchar(i + '0');
+
+																	}
+
+									}
+
+				_putchar('\n');
+
+}i
