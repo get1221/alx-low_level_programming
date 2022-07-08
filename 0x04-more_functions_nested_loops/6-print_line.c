@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * print_line - print line
- * @n: the number of characteruse
- * Return: void
+ * print_line -> printing line
+ * @n: integer params
  */
 void print_line(int n)
 {
-	int x;
-
-	if (n <= 0)
+		int x;
+		
+		if (n <= 0)
 		_putchar('\n');
 	else
 	{
