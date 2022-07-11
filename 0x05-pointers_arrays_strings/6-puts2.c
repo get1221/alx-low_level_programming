@@ -10,6 +10,7 @@ void puts2(char *str)
 	while (str[g] != '\0')
 	{
 		if (g % 2 == 0)
+		{
 			_putchar(str[g]);
 	}
 	g++;
