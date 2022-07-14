@@ -1,1 +1,1 @@
-if else
+readme pointer and arrays
