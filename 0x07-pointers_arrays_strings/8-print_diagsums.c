@@ -12,8 +12,8 @@ void print_diagsums(int *a, int size)
 
 	for (g = 0; g < size; g++)
 	{
-		sumg1 += *(a +(size * g + g));
-		sumg2 += *(a +(size * g + size - 1 - g));
+		sumg1 += *(a + (size * g + g));
+		sumg2 += *(a + (size * g + size - 1 - g));
 	}
 	printf("%d, ", sumgl);
 	printf("%d\n", sumg2);
