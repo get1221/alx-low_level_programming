@@ -12,8 +12,11 @@ int _sqrt_recursion(int n)
 
 /**
  * _sqrt - sqrt rec
+ *
  * @n: integer
- * @i: integer 
+ *
+ * @i: integer
+ *
  * Return: sqrt
  */
 int _sqrt(int n, int i)
