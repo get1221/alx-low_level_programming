@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strlen_recursion -lenght of string
+ * _strlen_recursion -length of string
  *
  * @s: pointer to string
  *
