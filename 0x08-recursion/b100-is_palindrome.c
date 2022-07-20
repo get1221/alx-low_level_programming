@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * * _strlen_recursion - size
+ * _strlen_recursion - size
  * @s: pointer
  * Return: rec
  */
