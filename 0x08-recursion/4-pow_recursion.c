@@ -5,7 +5,7 @@
  * @y: integer 2
  * Return: power of x
  */
-int _pow_recursion(int x, in y)
+int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 	{
