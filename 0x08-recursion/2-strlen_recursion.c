@@ -10,7 +10,7 @@
 
 int _strlen__recursion(char *s)
 {
-	if (!*s)
+	if (! *s)
 	{
 		return (0);
 	}
