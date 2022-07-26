@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * alloc_grid - entery point
+ * alloc_grid - ent point
  *
  * @width: row matrix
  *
@@ -11,32 +11,33 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int **matrix;
-	int i;
-	int j;
-	int l;
-	int *p;
+	int **gridout;
+	int i, j;
 
-	if (width <= 0 || height <= 0)
+	if (width < 1 || height < 1)
 		return (NULL);
-	matrix = (int **)malloc(height * sizeof(int *));
-	if (matrix == NULL)
-		return (NULL);
+
+	gridout = malloc(height * sizeof(int *));
+	if (gridout == NULL)
+	{
+	free(gridout);
+	return (NULL);
+	}
+
 	for (i = 0; i < height; i++)
 	{
-		p = matrix[i];
-		free(p);
+		gridout[i] = malloc(width * sizeof(int));
+		if (gridout[i] == NULL)
+		{
+			for (i--; i >= 0; i--)
+				free(gridout[i]);
+			free(gridout);
+			return (NULL);
+		}
 	}
-	free(martix);
-	return (NULL);
-}
-}
-for (l = 0; l < height; l++)
-{
-	for (j = 0; j < width; j++)
-	{
-		matrix[i][j] = 0;
-	}
-}
-return (matrix);
+
+	for (i = 0; i < height; i++)
+		for (j = 0; j < width; j++)
+			gridout[i][j] = 0;
+	return (gridout);
 }
