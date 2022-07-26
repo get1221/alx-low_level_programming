@@ -1,24 +1,22 @@
 #include "main.h"
 /**
- * _strncpy -two word
+ * *_strcpy - two word
  * @dest: pointer to char
  * @src: pointer to char
- * @n: int
- * Return: *dest
+ * Return: number
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = 0; src[i] != '\0' && i < n; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
 
-	for ( ; i < n; i++)
-	{
 		dest[i] = '\0';
-	}
-	return (dest);
+		return (dest);
+}
+}
 }
