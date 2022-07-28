@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _calloc - allocate memory 
+ * _calloc - allocate memory
+ *
  * @nmemb: number of elements
  * @size: size of elements
  * Return: NULL IS SIZE OF MEMB
