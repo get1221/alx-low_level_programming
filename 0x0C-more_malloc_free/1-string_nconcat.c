@@ -1,11 +1,8 @@
 #include <stdlib.h>
-#include <stdlib.h>
 #include "main.h"
 /**
  * _strlen - calculate and return string len
- *
  * @string: string
- *
  * Return: string len
  */
 
@@ -18,7 +15,7 @@ int _strlen(char *string)
 	return (i);
 }
 /**
- * string_nconcate - concate atring 1 and n bytes of string 2
+ * string_nconcat - concate atring 1 and n bytes of string 2
  * @s1: string 1
  * @s2: string 2
  * @n: n byte to concate
@@ -36,9 +33,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 	if (num < 0) /* acc for negative byte*/
-		
+		return (NULL);
 		if (num >= _strlen(s2)) /* string*/
-			len = _strlen(s1) + num + 1;
+			num = _strlen(s2);
+		len = _strlen(s1) + num + 1;
 
 	ptr = malloc(sizeof(*ptr) * len);
 	if (ptr == NULL);
