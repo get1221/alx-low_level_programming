@@ -1,50 +1,77 @@
 #include "main.h"
-/*
- * _strlen - cal str len
- * @string: string
- * Return: str len
- */
-int _strlen(char *string)
-{
-	int i;
-
-	for (i = 0; string[i] != '\0'; i++)
-		;
-	return (i);
-}
 
 /**
- * string_nconcat - concate atring 1 and n bytes of string 2
- * @s1: string 1
- * @s2: string 2
- * @n: n byte to concate
- * Return: pointer to concate
- */
+ *
+ *  * *string_nconcat - concatenates two strings
+ *
+ *   * @s1: first string
+ *
+ *    * @s2: second string
+ *
+ *     * @n: limit of s2
+ *
+ *      * Return: pointer to new space in memory or null
+ *
+ *       **/
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
+
 {
-	char *ptr;
-	int num, len, i, j;
-	num = n;
-	
-	if (s1 == NULL)
-		S1 = "";
-	if (s2 == NULL)
-		s2 = "";
-	if (num < 0)
-		return (NULL);
-	if (num >= _strlen(s2))
-		num = _strlen(s2);
 
-	len = _strlen(s1) + num + 1;
+		char *comb;
 
-	ptr = malloc(sizeof(*ptr) * len);
-	if (ptr == NULL)
-		return (NULL);
-	for (i = 0; s1[i] != '\0'; i++)
-		ptr[i] = s1[i];
-	for (j = 0; j < num; j++)
-		ptr[i + j] = s2[j];
-	ptr[i + j] = '\0';
-	return (ptr);
+			int i;
+
+				unsigned int j;
+
+
+
+					if (s1 == NULL)
+
+								s1 = "";
+
+						if (s2 == NULL)
+
+									s2 = "";
+
+							i = 0;
+
+								while (s1[i])
+
+											i++;
+
+									i++;
+
+										comb = malloc(sizeof(*comb) * (i + n));
+
+											if (comb == NULL)
+
+														return (NULL);
+
+												i = 0;
+
+													while (s1[i])
+
+															{
+
+																		comb[i] = s1[i];
+
+																				i++;
+
+																					}
+
+														for (j = 0; j < n && s2[j] != '\0'; j++)
+
+																{
+
+																			comb[i] = s2[j];
+
+																					i++;
+
+																						}
+
+															comb[i] = '\0';
+
+																return (comb);
+
 }
-
