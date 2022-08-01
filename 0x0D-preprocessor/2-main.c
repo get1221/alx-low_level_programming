@@ -1,16 +1,8 @@
 #include <stdio.h>
-
-
-
 /**
- *
- *  * main - preints the name of the file
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * main - print
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
