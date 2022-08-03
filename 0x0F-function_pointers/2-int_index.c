@@ -1,10 +1,14 @@
 #include "function_pointers.h"
 /**
- * int_index - searches for integer 
+ * int_index - searches for integer
+ *
  * @array: array
- * 2size: size 
- * @cmp: function pointer 
- * Return: count of integer 
+ *
+ * @size: size
+ *
+ * @cmp: function pointer
+ *
+ * Return: count
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
