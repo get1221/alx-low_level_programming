@@ -3,8 +3,11 @@
 /**
  * add_nodeint - Add a new node ata the first
  * @head: address of the first node
- * @n: Integer to inssert into the new node 
- * Return: Address of the new node 
+ *
+ * @n: Integer to inssert into the new node
+ *
+ * Return: Address of the new node
+ *
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
