@@ -5,7 +5,7 @@
  * pop_listint - Delete the first element of singly list
  * @head: pointer to a list
  * Return: Integer
- * */
+ **/
 
 int pop_listint(listint_t **head)
 {
@@ -19,5 +19,5 @@ int pop_listint(listint_t **head)
 	*head = tp->next;
 	my_data = tp->n;
 	free(tp);
-	return(my_data);
+	return (my_data);
 }
