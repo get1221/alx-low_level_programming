@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdio.h>
-/*
- * print_listint - print elements of a singly linkedlist
+/**
+ * print_listint - Print elements of a singly linked list.
  * @h: pointer to a list
- * Return: interger
- */
+ * Return: Integer.
+ **/
 
 size_t print_listint(const listint_t *h)
 {
