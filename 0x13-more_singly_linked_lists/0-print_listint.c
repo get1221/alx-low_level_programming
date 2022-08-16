@@ -3,7 +3,7 @@
 /**
  * print_listint - print elements of a singly linkedlist
  * @h: pointer to a list
- * Retur: interger
+ * Return: interger
  **/
 
 size_t print_listint(const istint_t *h)
